@@ -3,11 +3,11 @@ cache: bundler
 
 # Travis will build the site from gh-pages branch 
 # and deploy the content to master branch 
-# use dev branch to serve for github pages
+# use gh-pages branch to serve for github pages
 
 branches:
   only:
-  - dev
+  - gh-pages
 script: 
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
 
@@ -25,7 +25,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-    branch: dev
+    branch: gh-pages
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
