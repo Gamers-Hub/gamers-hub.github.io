@@ -1,11 +1,11 @@
 theme: devlopr  # Don't touch ( required for this theme)
 
-title: John Doe
-subtitle: Full Stack Web Developer
+title: Gamers Hub
+subtitle: Engineering Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+  Sharing insights and challenges we face while building Gamers Hub
 
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://gamers-hub.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -21,11 +21,11 @@ urls:
 # Edit these details 
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
+author: Admin
+author_bio: Gamers Hub is a platform built for Gamers and Game Developers. 
+author_email: "proj@gmail.com"
 author_location: India
-author_website_url: "http://johndoe.com"
+author_website_url: "http://gamershub.in"
 
 author_work_experiences: 
             - company_name: Google
@@ -62,9 +62,9 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
+twitter_username: gamershubindia
+github_username:  gamershubindia
+facebook_username: gamershubindia
 linkedin_username: johndoe
 behance_username: johndoe
 instagram_username: johndoe
@@ -99,7 +99,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  # - jekyll-archives
 
 # pagination of posts
 paginate: 8
@@ -115,12 +114,5 @@ compress_html:
     envs: ['development']
 
 
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
 
 
