@@ -4,6 +4,7 @@ cache: bundler
 # Travis will build the site from gh-pages branch 
 # and deploy the content to master branch 
 # use gh-pages branch to serve for github pages
+# custom build
 
 branches:
   only:
