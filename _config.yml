@@ -27,6 +27,87 @@ urls:
     - text: Contact Me
       url : /contact
 
+
+author_logo: profile.png
+author: Sujay Kundu
+author_bio: Tech Enthusiast, Dev, Traveller
+author_email: "sujaykundu777@gmail.com"
+author_location: India
+author_website_url: "https://sujaykundu.com"
+
+# Choose what to show ( can be true or false)
+show_author_work_experiences: true
+show_author_education_details: false
+show_author_project_details: true
+
+author_work_experiences:
+            - company_name: Katerra
+              company_logo: companies/katerra.png
+              company_url: https://katerra.com
+              designation: Node JS Dev
+              description: Working as a Backend Software Engineer
+              visibility: true
+            - company_name: Accenture
+              company_logo: companies/accenture.png
+              company_url: https://accenture.com
+              designation: Associate
+              description: Worked as Associate Engineer
+              visibility: true
+            - company_name: Skillenza
+              company_logo: companies/skillenza.png
+              company_url: https://skillenza.com
+              designation: Intern Python Developer
+              description: Worked on Messaging Automation System using AWS, Mongodb, Python/Flask, Sqlite
+              visibility: true
+            - company_name: Edugorilla
+              company_logo: companies/edugorilla.jpg
+              company_url: https://edugorilla.com
+              designation: Intern Wordpress Developer
+              description: Worked on building the website using Wordpress
+              visibility: true
+
+author_education_details:
+              - college_logo: mit.png
+                college_name: MIT
+                college_url: https://mit.org
+                college_degree: CS Engineer
+                description: Bachelor of Technology
+                visibility: false
+
+author_project_details:
+              - project_thumbnail: projects/devlopr.png
+                project_title: Devlopr Jekyll
+                project_description: A Jekyll Theme built for Developers
+                project_url: https://devlopr.netlify.com
+                project_repo_url: https://github.com/sujaykundu777/devlopr-jekyll
+                project_tags: Theme, SSG, Web App, Ruby
+                visibility: true
+              - project_thumbnail: projects/hackify.png
+                project_title: Hackify Atom Theme
+                project_description: A Dark Hacker Theme for Atom Editor
+                project_url: https://atom.io/themes/hackify-ui
+                project_repo_url: https://github.com/sujaykundu777/hackify-ui
+                project_tags: Theme, Atom Editor Plugin
+                visibility: false
+              - project_thumbnail: projects/gamershub.png
+                project_title: Gamers Hub
+                project_description: A Platform for Gamers and Game Devs to share Gaming Related links
+                project_url: https://gamershub.in
+                project_repo_url: https://github.com/Gamers-Hub/gamers-hub
+                project_tags: Web App, React, Meteor, Javascript
+                visibility: false
+# social links
+twitter_username: sujaykundu777
+github_username:  sujaykundu777
+facebook_username: sujay.kundu2
+linkedin_username: sujaykundu
+behance_username: sujaykundu777
+instagram_username: sujaykundu777
+medium_username: sujaykundu
+telegram_username: sujaykundu
+dribbble_username: johndoe
+flickr_username: johndoe
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
