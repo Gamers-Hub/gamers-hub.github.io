@@ -1,13 +1,11 @@
 title: devlopr starter
-email: your-email@example.com
+email: johndoe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # theme: devlopr
 # Build settings
@@ -39,11 +37,23 @@ urls:
       url : /contact
 
 author_logo: profile.png
-author: Sujay Kundu
-author_bio: Tech Enthusiast, Dev, Traveller
-author_email: "sujaykundu777@gmail.com"
+author:  John Doe
+author_bio: Web Developer, Designer
+author_email: johndoe@gmail.com
 author_location: India
 author_website_url: "https://sujaykundu.com"
+
+# social links
+twitter_username: johndoe
+github_username:  johndoe
+facebook_username: johndoe
+linkedin_username: johndoe
+behance_username: johndoe
+instagram_username: johndoe
+medium_username: johndoe
+telegram_username: johndoe
+dribbble_username: johndoe
+flickr_username: johndoe
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -51,29 +61,17 @@ show_author_education_details: false
 show_author_project_details: true
 
 author_work_experiences:
-            - company_name: Katerra
-              company_logo: companies/katerra.png
-              company_url: https://katerra.com
-              designation: Node JS Dev
-              description: Working as a Backend Software Engineer
+            - company_name: Google
+              company_logo: google.png
+              company_url: https://google.com
+              designation: Web Developer
+              description: I build and design google's websites
               visibility: true
-            - company_name: Accenture
-              company_logo: companies/accenture.png
-              company_url: https://accenture.com
-              designation: Associate
-              description: Worked as Associate Engineer
-              visibility: true
-            - company_name: Skillenza
-              company_logo: companies/skillenza.png
-              company_url: https://skillenza.com
-              designation: Intern Python Developer
-              description: Worked on Messaging Automation System using AWS, Mongodb, Python/Flask, Sqlite
-              visibility: true
-            - company_name: Edugorilla
-              company_logo: companies/edugorilla.jpg
-              company_url: https://edugorilla.com
-              designation: Intern Wordpress Developer
-              description: Worked on building the website using Wordpress
+            - company_name: Microsoft
+              company_logo: microsoft.png
+              company_url: https://microsoft.com
+              designation: Web Developer
+              description: I build and design microsoft's websites
               visibility: true
 
 author_education_details:
@@ -106,17 +104,7 @@ author_project_details:
                 project_repo_url: https://github.com/Gamers-Hub/gamers-hub
                 project_tags: Web App, React, Meteor, Javascript
                 visibility: false
-# social links
-twitter_username: sujaykundu777
-github_username:  sujaykundu777
-facebook_username: sujay.kundu2
-linkedin_username: sujaykundu
-behance_username: sujaykundu777
-instagram_username: sujaykundu777
-medium_username: sujaykundu
-telegram_username: sujaykundu
-dribbble_username: johndoe
-flickr_username: johndoe
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
