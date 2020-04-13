@@ -9,7 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # theme: devlopr
 # Build settings
-remote_theme: sujaykundu777/devlopr-jekyll
+theme: devlopr
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
