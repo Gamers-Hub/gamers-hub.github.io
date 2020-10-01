@@ -1,14 +1,40 @@
 <head>
-  <title>Gamers Hub</title>
-  <style>
+  <title>Gamers Hub - Indian Gamers and Game Developers Community</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="keywords"
+    content="Indian Gaming Community,Gamers,Game Developers,Game Developers Community,Chat with Gamers,Learn Game Development,gamershub,sujay kundu,play online games"
+  />
+  <meta
+    name="description"
+    content="Gamers Hub is a Indian Gamers and Game developers community.Learn Game Development, Play Games online or chat with other Gamers"
+  />
+  <meta
+    name="google-site-verification"
+    content="m2ppCAV4pzHiXCO8r4jpO8CE9JonwJm4N_S2YuSL8jc"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+    rel="stylesheet"
+  />
 
+  <link
+    rel="stylesheet"
+    href="assets/fontawesome-free-5.14.0-web/css/all.css"
+  />
+  <script src="assets/fontawesome-free-5.14.0-web/js/all.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <style>
     body {
-      background-image: url('./bg.gif');
+      background-image: url("./bg.gif");
       background-position: center;
       background-attachment: fixed;
       background-size: cover;
       text-align: center;
-      font-family: 'Alata', sans-serif;
+      font-family: "Alata", sans-serif;
     }
     .container {
       margin-top: 50px;
@@ -30,8 +56,7 @@
       margin: 8px;
       padding: 20px;
     }
-    .button:hover{
-
+    .button:hover {
       background-color: #111;
       color: white;
       padding: 15px 32px;
@@ -43,44 +68,120 @@
       margin: 8px;
       padding: 20px;
     }
-  </style>
-  <meta
-    name="google-site-verification"
-    content="m2ppCAV4pzHiXCO8r4jpO8CE9JonwJm4N_S2YuSL8jc"
-  />
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    /* Tooltip container */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
 
-  <link
-    rel="stylesheet"
-    href="assets/fontawesome-free-5.14.0-web/css/all.css"
-  />
-  <script src="assets/fontawesome-free-5.14.0-web/js/all.js"></script>
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+
+      /* Position the tooltip text */
+      position: absolute;
+      z-index: 1;
+      top: 125%;
+      left: 50%;
+      margin-left: -60px;
+
+      /* Fade in tooltip */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    /* Tooltip arrow */
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <img src="./logo.png" class="logo" alt="gamershub-logo" />
     <br />
     <h2>A Gamers & Game Developers Community</h2>
-    <p> Join the community</p>
-    <a class="button" target="_blank" href="https://blog.gamershub.in/">
-      <i class="fas fa-cube"></i>
-    </a>
-    <a class="button" target="_blank" href="https://discord.gg/PAzyuJR">
-      <i class="fab fa-discord"></i>
-    </a>
-    <a
-      class="button"
-      target="_blank"
-      href="https://youtube.com/c/gamershubindia"
-    >
-      <i class="fab fa-youtube"></i>
-    </a>
-    <a
-      class="button"
-      target="_blank"
-      href="https://www.facebook.com/gamershubcommunity"
-    >
-      <i class="fab fa-facebook"></i>
-    </a>
+    <p style="margin:40px;font-family: 'Press Start 2P', cursive; font-size:20px;">Play / Share / Learn / Team Up !</p>
+    <div class="tooltip">
+      <a class="button" target="_blank" href="https://blog.gamershub.in/">
+        <i class="fas fa-cube"></i>
+      </a>
+      <span class="tooltiptext">Learn Game Development</span>
+    </div>
+    <div class="tooltip">
+      <a class="button" target="_blank" href="https://gamershub.in/games">
+        <i class="fas fa-gamepad"></i>
+      </a>
+      <span class="tooltiptext">Play Games Online</span>
+    </div>
+    <div class="tooltip">
+      <a class="button" target="_blank" href="https://discord.gg/PAzyuJR">
+        <i class="fas fa-headset"></i>
+      </a>
+      <span class="tooltiptext">Chat / Share / Play With Others</span>
+    </div>
+    <div class="tooltip">
+      <a
+        class="button"
+        target="_blank"
+        href="https://youtube.com/c/gamershubindia"
+      >
+        <i class="fab fa-youtube"></i>
+      </a>
+      <span class="tooltiptext">Videos / Streams/ Tutorials</span>
+    </div>
+    <div class="tooltip">
+      <a
+        class="button"
+        target="_blank"
+        href="https://www.facebook.com/gamershubcommunity"
+      >
+        <i class="fab fa-facebook"></i>
+      </a>
+      <span class="tooltiptext">Cool Stuff / Memes / Events</span>
+    </div>
+    <div class="tooltip">
+      <a
+        class="button"
+        target="_blank"
+        href="https://www.instagram.com/gamershubindia"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+      <span class="tooltiptext">Photos / Stories</span>
+    </div>
+    <div class="tooltip">
+      <a
+        class="button"
+        target="_blank"
+        href="https://www.github.com/Gamers-Hub"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      <span class="tooltiptext"
+        >WE ARE OPEN SOURCE - Contribute / Share Your Projects or
+        Tutorials</span
+      >
+    </div>
+
   </div>
 </body>
