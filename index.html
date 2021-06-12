@@ -1,5 +1,5 @@
 <head>
-  <title>Gamers Hub - Indian Gamers and Game Developers Community</title>
+  <title>Gamers Hub India - Indian Gaming Community</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="keywords"
@@ -113,31 +113,61 @@
       visibility: visible;
       opacity: 1;
     }
+
+    /* Nav Links */
+    .navContainer{
+      margin-top: 2%;
+      text-align: center;
+      border: 1px dashed#fff;
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nav{
+      list-style: none;
+    }
+    .navlink{
+      font-size: 35px;
+      font-weight: 300;
+    }
+
+    .navref{
+      text-decoration: none;
+      color: #fff;
+    }
+    .navref:hover{
+      color: yellow;
+    }
+    footer{
+      color: #fff;
+      padding: 30px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <img src="./logo.png" class="logo" alt="gamershub-logo" />
     <br />
-    <h2>A Gamers & Game Developers Community</h2>
-    <p style="margin:40px;font-family: 'Press Start 2P', cursive; font-size:20px;">Play / Share / Learn / Team Up !</p>
-    <div class="tooltip">
+    <h2>We are India's Growing Gaming Community</h2>
+    <h3>Participate in tournaments, watch livestreams, meet like-minded players !</h3>
+    <p style="margin:40px;font-family: 'Press Start 2P', cursive; font-size:20px;"> Team Up -> Win Tournaments -> Earn Gaming </p>
+    <!-- <div class="tooltip">
       <a class="button" target="_blank" href="https://blog.gamershub.in/">
         <i class="fas fa-cube"></i>
       </a>
       <span class="tooltiptext">Learn Game Development</span>
-    </div>
-    <div class="tooltip">
+    </div> -->
+    <!-- <div class="tooltip">
       <a class="button" target="_blank" href="https://gamershub.in/games">
         <i class="fas fa-gamepad"></i>
       </a>
       <span class="tooltiptext">Play Games Online</span>
-    </div>
+    </div> -->
     <div class="tooltip">
       <a class="button" target="_blank" href="https://discord.gg/PAzyuJR">
-        <i class="fas fa-headset"></i>
+        <i class="fab fa-discord"></i>
       </a>
-      <span class="tooltiptext">Chat / Share / Play With Others</span>
+      <span class="tooltiptext">Join the Community</span>
     </div>
     <div class="tooltip">
       <a
@@ -147,7 +177,7 @@
       >
         <i class="fab fa-youtube"></i>
       </a>
-      <span class="tooltiptext">Videos / Streams/ Tutorials</span>
+      <span class="tooltiptext">Watch Streams</span>
     </div>
     <div class="tooltip">
       <a
@@ -157,7 +187,7 @@
       >
         <i class="fab fa-facebook"></i>
       </a>
-      <span class="tooltiptext">Cool Stuff / Memes / Events</span>
+      <span class="tooltiptext">Follow us on Facebook</span>
     </div>
     <div class="tooltip">
       <a
@@ -167,9 +197,9 @@
       >
         <i class="fab fa-instagram"></i>
       </a>
-      <span class="tooltiptext">Photos / Stories</span>
+      <span class="tooltiptext">Follow us on Instagram</span>
     </div>
-    <div class="tooltip">
+    <!-- <div class="tooltip">
       <a
         class="button"
         target="_blank"
@@ -181,7 +211,22 @@
         >WE ARE OPEN SOURCE - Contribute / Share Your Projects or
         Tutorials</span
       >
-    </div>
-
+    </div> -->
+     <div class="navContainer">
+       <ul class="nav">
+         <li class="navlink">
+           <a class="navref" href="/login">Login</a> / <a class="navref" href="/signup">Signup</a>
+         </li>
+         <li class="navlink">
+           <a class="navref" href="/tournaments"> Play Tournaments</a>
+         </li>
+         <li class="navlink">
+           <a class="navref" href="/whats-new"> What's New </a>
+         </li>
+      </ul>
+     </div>
+     <footer>
+         Powered by Indians. 2021 (By Gamers, For Gamers)
+     </footer>
   </div>
 </body>
